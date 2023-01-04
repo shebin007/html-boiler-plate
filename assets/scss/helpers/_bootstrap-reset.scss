@@ -1,0 +1,19 @@
+// bootstrap style
+
+// bootstrap primary color change
+$theme-colors: (
+	primary: $primary-color,
+);
+
+// change bootstrap default container width
+$grid-breakpoints: (
+	xxl: 1300px,
+);
+
+// responsive view point
+$container-max-widths: (
+	xxl: 1270px,
+	lg: 100%,
+	md: 100%,
+	sm: 100%,
+);

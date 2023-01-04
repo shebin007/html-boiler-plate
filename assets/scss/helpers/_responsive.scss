@@ -1,0 +1,51 @@
+// media query variable
+$desktop: 1400px;
+$desktop-md: 1200px;
+$laptop: 1300px;
+$tablet: 992px;
+$mobile: 767px;
+$mobile-md: 575px;
+$mobile-sm: 360px;
+
+// responsive mixin
+@mixin desktop {
+	@media (max-width: $desktop) {
+		@content;
+	}
+}
+
+@mixin desktop-md {
+	@media (max-width: $desktop-md) {
+		@content;
+	}
+}
+
+@mixin laptop {
+	@media (max-width: $laptop) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media (max-width: $tablet) {
+		@content;
+	}
+}
+
+@mixin mobile {
+	@media (max-width: $mobile) {
+		@content;
+	}
+}
+
+@mixin mobile-md {
+	@media (max-width: $mobile-md) {
+		@content;
+	}
+}
+
+@mixin mobile-sm {
+	@media (max-width: $mobile-sm) {
+		@content;
+	}
+}
